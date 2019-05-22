@@ -1,3 +1,4 @@
+/** {@inheritDoc} */
 package training.taylor.timetracker.core.dao;
 
 import org.springframework.context.annotation.Scope;
