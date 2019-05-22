@@ -13,26 +13,32 @@ public class TimeEntry {
     private float rate;
     private int time;
 
+    /** {@inheritDoc} */
     public String getDescription() {
         return description;
     }
 
+    /** {@inheritDoc} */
     public void setDescription(final String value) {
         this.description = value;
     }
 
+    /** {@inheritDoc} */
     public float getRate() {
         return rate;
     }
 
+    /** {@inheritDoc} */
     public void setRate(final float value) {
         this.rate = value;
     }
 
+    /** {@inheritDoc} */
     public int getTime() {
         return time;
     }
 
+    /** {@inheritDoc} */
     public void setTime(final int value) {
         this.time = value;
     }
